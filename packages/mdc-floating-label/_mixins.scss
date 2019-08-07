@@ -55,6 +55,15 @@
   }
 }
 
+///
+/// Sets Y-axis / vertical position of floating label from top to center of floating label box position.
+///
+/// @param {Number} $positionY
+///
+@mixin mdc-floating-label-position($positionY) {
+  top: $positionY;
+}
+
 @mixin mdc-floating-label-float-position($positionY, $positionX: 0%, $scale: .75) {
   .mdc-floating-label--float-above {
     @if $positionX > 0 or $positionX < 0 {

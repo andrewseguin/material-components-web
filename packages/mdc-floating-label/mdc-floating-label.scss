@@ -38,6 +38,7 @@
     position: absolute;
     /* @noflip */
     left: 0;
+    transform: translateY(-50%);
     /* @noflip */
     transform-origin: left top;
     transition:
